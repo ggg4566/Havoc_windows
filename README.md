@@ -37,3 +37,33 @@ Qt creator open cmake mingw project directory and compile
 <img width="1427" alt="image" src="https://github.com/ggg4566/Havoc_windows/assets/7532477/bdaed753-d162-4941-9872-5a50e3494d24">
 
 <img width="1429" alt="image" src="https://github.com/ggg4566/Havoc_windows/assets/7532477/c6f91e8e-24a7-4128-bddd-e6e2c39aa5e4">
+
+# :)
+
+compile payload need set mingw-gcc in profile
+http_smb_windows.yaotl
+```bash
+Teamserver {
+    Host = "0.0.0.0"
+    Port = 40056
+
+    Build {
+        Compiler64 = "x86_64-w64-mingw32-gcc.exe"
+        Compiler86 = "i686-w64-mingw32-gcc.exe"
+        Nasm = "E:\\Havoc\\tools\\nasm.exe"
+    }
+}
+
+Operators {
+    user "admin" {
+        Password = "testpassword"
+    }
+
+    user "msf" {
+        Password = "testpassword"
+    }
+}
+```
+
+<img width="933" alt="image" src="https://github.com/ggg4566/Havoc_windows/assets/7532477/714559ad-0c9e-4412-9b56-5cffec914e9b">
+
