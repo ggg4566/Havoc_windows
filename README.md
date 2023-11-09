@@ -17,7 +17,7 @@ download and install qt5 and python
 ```bash
 mirror list:https://download.qt.io/static/mirrorlist/
 chose fast mirror address.
-qt-unified-windows-x64-online.exe --mirror https://ftp.yz.yamagata-u.ac.jp/pub/qtproject/](https://mirrors.tuna.tsinghua.edu.cn/qt/
+qt-unified-windows-x64-online.exe --mirror https://mirrors.tuna.tsinghua.edu.cn/qt/
 ```
 ### install python310
 https://www.python.org/ftp/python/3.10.10/python-3.10.10-amd64.exe
